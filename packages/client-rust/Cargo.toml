@@ -12,15 +12,16 @@ publish = false
 
 [dependencies]
 aws-lc-rs.workspace = true
-serde.workspace = true
-serde_with.workspace = true
+chrono = { version = "0.4.44" }
+reqwest-middleware.workspace = true
+reqwest.workspace = true
+rustls.workspace = true
 serde_json.workspace = true
 serde_repr.workspace = true
+serde_with.workspace = true
+serde.workspace = true
 url.workspace = true
 uuid.workspace = true
-reqwest.workspace = true
-reqwest-middleware.workspace = true
-rustls.workspace = true
 
 [lints.rust]
 non_snake_case = "allow"
